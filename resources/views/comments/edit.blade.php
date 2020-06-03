@@ -30,5 +30,9 @@
                 </button>
             </div>
         </x-form>
+
+        <x-form-button method="DELETE" action="/comments/{{ $comment->id }}">
+            Delete
+        </x-form-button>
     </x-section>
 </x-layout>
