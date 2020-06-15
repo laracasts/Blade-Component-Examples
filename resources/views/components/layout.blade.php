@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1"
     >
 
-    <title>Laravel</title>
+    <title>Blade Component Examples</title>
 
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
           rel="stylesheet"
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    @include('partials/header')
 
     {{ $slot }}
 
